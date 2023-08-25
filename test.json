@@ -1,0 +1,20 @@
+[
+    {
+        "corporation_id": { "string": "ID" },
+        "corporation_code": { "string": "Code" },
+        "name": { "string": "Name" },
+        "description": { "string": "Description" },
+        "tax_id": { "string": "Tax ID" },
+        "address": { "string": "Address" },
+        "tel_no": { "string": "Tel. No." },
+        "fax_no": { "string": "Fax No." },
+        "is_active": { "string": "Active" },
+        "id": { "string": "ID" },
+        "__last_update": { "string": "Last Modified on" },
+        "display_name": { "string": "Display Name" },
+        "create_uid": { "string": "Created by" },
+        "create_date": { "string": "Created on" },
+        "write_uid": { "string": "Last Updated by" },
+        "write_date": { "string": "Last Updated on" }
+    }
+]
