@@ -15,7 +15,7 @@ connection = pyodbc.connect(connection_string)
 # Create a cursor to execute queries
 cursor = connection.cursor()
 # Example query
-query = "select r.FCTYPE,r.FCCODE,r.FCUM,'TEST',r.FNPRICE from PROD r order by FCCODE"
+query = "select r.FCTYPE,r.FCCODE,r.FCUM,'TEST',r.FNPRICE from PROD r where r.FCTYPE in ('2','3','4','5') order by FCCODE"
 
 url = "http://localhost:8081/api/vcsgroup/productlist"
 try:

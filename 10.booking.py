@@ -40,7 +40,7 @@ try:
             }
         })
 
-        print(payload)
+        # print(payload)
 
         headers = {
             'Content-Type': 'application/json',
