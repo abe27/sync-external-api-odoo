@@ -51,8 +51,8 @@ if isRead:
 
 
     # Set your SQL Server connection parameter
-    server = '192.168.10.6'
-    database = 'formula'
+    server = '192.168.20.9'
+    database = 'Formula'
     username = 'fm1234'
     password = 'x2y2'
 
