@@ -69,14 +69,14 @@ if isRead:
     # Fetch all rows
     rows = cursor.fetchall()
     for r in rows:
-        print(r)
+        # print(r)
         # # # Create new Record
         id = models.execute_kw(odoo_db, uid, odoo_password, 'res.partner', 'create', [{
             'name': str(r[0]).strip(),
             "display_name": str(r[1]).strip(),
             "company_name": str(r[2]).strip(),
             "is_company": True,
-            "street": str(r[3]).strip(),
+            "street": "-",##str(r[3]).strip(),
             "street2": "-",
             "phone": str(r[4]).strip(),
             "mobile": "-",
